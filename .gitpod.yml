@@ -1,7 +1,7 @@
 tasks:
   - init: mvn install
 
-    command: ./mvnw
+    command: chmod=+x mvnw && ./mvnw
 ports:
   - port: 3000
     onOpen: open-preview
