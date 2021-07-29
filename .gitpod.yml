@@ -1,0 +1,10 @@
+tasks:
+  - init: mvn install
+
+    command: ./mvnw
+ports:
+  - port: 3000
+    onOpen: open-preview
+github:
+  prebuilds:
+    master: true
