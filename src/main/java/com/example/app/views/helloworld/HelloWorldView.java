@@ -51,9 +51,8 @@ public class HelloWorldView extends LitTemplate {
 
         sayHello.addClickListener(e -> {
             Notification.show("Hello " + name.getValue());
-
              
-
+            // to test rich text editor
              List<TabStop> tabStops = new ArrayList<>();
 
              tabStops.add(new TabStop(TabStop.Direction.LEFT, 150));
