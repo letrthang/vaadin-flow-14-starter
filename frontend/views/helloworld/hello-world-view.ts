@@ -3,6 +3,7 @@ import { html, LitElement, customElement } from 'lit-element';
 
 import '@vaadin/vaadin-button';
 import '@vaadin/vaadin-text-field';
+import '@vaadin/vaadin-ordered-layout/vaadin-vertical-layout.js';
 
 @customElement('hello-world-view')
 export class HelloWorldView extends LitElement {
@@ -12,7 +13,10 @@ export class HelloWorldView extends LitElement {
   }
 
   render() {
-    return html`<vaadin-text-field id="name" label="Your name"></vaadin-text-field>
-      <vaadin-button id="sayHello">Say hello</vaadin-button>`;
+    return html` <vaadin-vertical-layout  id="mainLayout">
+    <vaadin-text-field id="name" label="Your name"></vaadin-text-field>
+      <vaadin-button id="sayHello">Say hello</vaadin-button>
+      </vaadin-vertical-layout>
+      `;
   }
 }
