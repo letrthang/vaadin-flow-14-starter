@@ -169,11 +169,11 @@
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.vaadin.componentfactory/enhanced-rich-text-editor -->
-<dependency>
-    <groupId>com.vaadin.componentfactory</groupId>
-    <artifactId>enhanced-rich-text-editor</artifactId>
-    <version>2.4.2</version>
-</dependency>
+        <dependency>
+            <groupId>com.vaadin.componentfactory</groupId>
+            <artifactId>enhanced-rich-text-editor</artifactId>
+            <version>2.4.2</version>
+        </dependency>
     </dependencies>
 
     <build>
